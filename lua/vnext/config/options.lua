@@ -18,8 +18,14 @@ o.listchars = {                                                    -- define inv
   space = "·",
   nbsp = "␣",
 }
+o.hidden         = true
+o.encoding       = "UTF-8"
+o.backspace      = "indent,eol,start"
+o.incsearch      = true
+o.hlsearch       = false
 o.mouse          = "nv"                                            -- enable mouse see :h mouse
-o.relativenumber = true                                            -- set relative numbered lines
+o.number         = true
+o.relativenumber = false                                           -- set relative numbered lines
 o.scrolloff      = 10                                              -- Minimal number of screen lines to keep above and below the cursor
 o.signcolumn     = "yes"                                           -- Always show the signcolumn, otherwise it would shift the text each time
 o.shiftwidth     = 2                                               -- the number of spaces inserted for each indentation
